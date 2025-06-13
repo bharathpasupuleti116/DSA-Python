@@ -1,0 +1,15 @@
+1. Prime Number
+
+A prime number is a number greater than 1 that can only be divided by 1 and itself .
+Examples: 2, 3, 5, 7, 11, 13
+
+Think of a number as a special treasure box. Prime numbers only have two keys to open it:
+
+the key "1" and the key that's the number itself. If there are other keys, it's not prime! Checking if a number is prime: You try dividing it by numbers from 2 up to its square root.If none divide it exactly, it's prime.
+
+Time complexity: About O(✓n) — because you only check up to the square root of the number.
+
+Space complexity: O(1) — only a few variables to keep track.
+
+Why important?
+Used in cryptography, hashing, and many algorithms.
