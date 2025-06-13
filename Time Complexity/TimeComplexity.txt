@@ -1,0 +1,30 @@
+Scenario: Delivering Pizza
+
+You're a delivery person, and you need to deliver to n houses
+
+Constant - 0(1):
+If your boss asks you to deliver a pizza to the first house on the list,
+it doesn't matter how many houses are on the list
+you go directly to that one house.
+
+Linear - O(n):
+If you need to pizza to the houses, you'll visit each house one by one.
+The time it takes increases the number Of houses.
+
+Quadratic Time - O(n^2):
+If you try to check every possible pair of houses to decide the shortest delivery route.
+the number of coearisons rapidly as the number of houses increases.
+
+Logarithmic Time - O(log n):
+If the houses are organized in a tree-Like structure (e.g.,one main road branching into smaller streets),
+you can deliver faster by your search:
+
+First, decide which street.
+Then, decide which block.
+Finally, deliver to the house.
+
+O(1): Always takes the same time.
+O(n): Grows Linearly with input size.
+O(n^2): Grows quadratically with nested Loops.
+O(log n): Grows slowly, cutting the problem in half each time.
+O(2^n):Grows exponentially, doubling the work at every step.

@@ -1,0 +1,189 @@
+What is Algorithms?
+
+---> A process or set of rules to be followed in calculations or other problem solving operations especially by computer.
+
+---> Algorithm is a step-by-step procedure, which defines a set of instructions to be executed in a certain order to get the desired output.
+
+Purpose of algorithms
+
+1. Algorithms are necessary for solving complex problems efficiently and effectively.
+2. They help to automate processes and make them more reliable, faster, and easier to
+perform.
+3. Algorithms also enable computers to perform tasks that would be difficult or impossible
+for humans to do manually.
+4. They are used in various fields such as mathematics, computer science, engineering,
+finance, and many others to optimize processes, analyze data, make predictions, and
+provide solutions to problems.
+
+Characteristics of Algorithms
+1. Input
+2. Unambiguous
+3. Language Independent
+4. Output
+5. Finiteness
+6. Feasibility
+
+Types of Algorithms
+
+1. Recursive Algorithm
+2. Searching Algorithm
+3. Sorting Algorithm
+4. Hashing Algorithm
+5. Divide and Conquer Algorithm
+6. Greedy Algorithm
+7. Dynamic Programming Algorithm
+
+How to Write an Algorithm?
+
+Problem — Design an algorithm to add two numbers and display the result.
+
+Step 1- START
+Step 2 — declare three integers a, b & c
+Step 3 — define values of a & b
+Step 4 — add values of a & b
+Step 5 — store output of step 4 to c
+Step 6 — print c
+Step 7 - STOP
+
+Step 1 — START ADD
+Step 2 — get values ofa & b
+Step 3 — c <-- a + b
+Step 4 — display c
+Step 5 — STOP
+
+what is the Analysis of the Algorithm?
+
+--> Algorithm analysis is Used to measure the
+performance of algorithm.
+
+--> Analysis of algorithms is the determination of the amount of time and space resources required to execute it.
+
+--> The goal of algorithm analysis is to compare different algorithms that are used to solve the same problem. This is done to evaluate which method solves a certain problem more quickly, efficiently,and memory-wise.
+
+what is need of Algorithm Analysis?
+
+Choosing a better algorithm based on problem statement
+
+Asymptotic Notations:
+
+What is the Asymptotic Notation?
+
+--> Asymptotic notation is a way to describe the running time or space complexity of an algorithm based on the input size. 
+--> It is commonly used in complexity analysis to describe how an algorithm performs as the size of the input grows.
+
+Rate of Growth:
+
+Rate of growth is defined as the rate at which the running time of the algorithm is increased when the input size is increased.
+The growth rate could be categorized into two types:
+1.Linear
+2.Exponential.
+
+Types of Asymptotic Notations:
+
+--> There are three types of Asymptotic Notations.They are:
+1. Best Case 
+2. Worst Case
+3. Average Case
+
+1. Best Case(Omega Notation):
+
+arr = [2, 1, 4, 7, 5, 3]
+
+searching for number 2
+
+--> Minimum number of operations to be executed on any input values
+
+--> Lower Bound Growth Rate
+
+2. Worst Case(Big O):
+
+arr = [8, 1, 4, 7, 5, 2]
+
+Searching For Number 2
+
+--> Maximum number of operations to be executed on any input values
+
+--> Upper Bound Growth Rate
+
+3. Average Case(Theta Notation):
+
+--> In the average case take all random inputs and calculate the computation time for all inputs.And then we divide it by the total number of inputs.
+
+Average case = all random case time / total no of case
+
+--> If an algorithm's running time is ?(n), then it means that the running time of the algorithm increases linearly with the input size n.
+
+Which Case is generally used?
+
+In Priority order
+1. Worst Case
+2. Average Case
+3. Best Case
+
+How to Analyze Complexity of Algorithm?
+
+Big O Notation is a way to represent how long an algorithm will take to execute.
+
+Common types of time complexities in Big O Notation:
+
+0(1) - Constant time complexity
+O(n) - Linear time complexity
+O(log n) - Logarithmic time complexity
+O(n^2) - Quadratic time complexity
+
+
+0(1) — Constant Time
+
+Constant time algorithms will always take same amount of time to be executed.
+
+arr = [1, 4, 5, 7, 8, 2]
+
+Accessing arr[2] = ?
+
+O(n) - Linear time complexity
+
+An algorithm has a linear time complexity if the time to execute the algorithm is directly proportional to the input size n.
+
+arr = [1, 4, 5, 7, 8, 2]
+
+Printing Array Elements Using Array
+
+arr = [1, 4, 5, 7, 8, 2]
+print("Printing Array Elements Using Array")
+for i in arr:
+    print(i)
+
+Output:
+
+Printing Array Elements Using Array
+1
+4
+5
+7
+8
+2
+
+O(log n) - Logarithmic time complexity
+An algorithm has logarithmic time complexity if the time it takes to run the algorithm is proportional to the logarithm of the input size n.
+
+Binary Search
+
+arr = [1, 2, 4, 7, 8, 9]
+
+Searching for Value 7
+
+O(n^2) - Quadratic time complexity
+
+If an algorithm's time complexity is quadratic, it means that the runtime of the algorithm is directly proportional to the square of the size of the input.
+
+arr = [1, 2, 4, 7, 2, 9]
+
+Searching for Duplicate Value in array
+
+
+
+
+
+
+
+

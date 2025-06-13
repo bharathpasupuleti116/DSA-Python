@@ -1,0 +1,36 @@
+What is Stack?
+
+A stack is a fundamental data structure that follows the Last-ln-First-Out (LIFO) principle.
+This means the last element added to the stack is the first one to be removed.
+
+Programming Language Features:
+• Function Calls
+• Expression Evaluation
+• Recursion
+
+Real-World Applications:
+• Undo/Redo
+• Web Browser History
+• Parsing
+• Virtual Machines
+• Gaming and Simulations
+
+Advantages of Stack:
+• Simplicity
+• Efficiency
+• Memory Management
+• Recursive Support
+• Undo/Redo
+
+Disadvantages of Stack
+• Limited Capacity
+• Limited Access
+• Inefficient for Large Data
+• Memory Fragmentation
+
+Stack Operations
+1. Push: Adding an element to the top of the stack.
+2. Pop: Removing the element from the top of the stack.
+3. Peek (or Top): Return top element of the stack.
+4. IsEmpty: Checking if the stack is empty.
+5. IsFull: Checking if the stack is Full.

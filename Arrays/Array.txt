@@ -1,0 +1,42 @@
+What is Array?
+
+An array is a data structure that stores a collection of elements, typically of the same data type, in contiguous memory locations. Each element in an array is accessed by its index or position within the array.
+
+Properties of Arrays:
+
+1. Fixed Size:
+
+The size of an array is fixed at the time of declaration and cannot be changed dynamically
+
+Array Declartion
+
+arr[5] --->  Size of Array =5
+
+arr[5] = [1,2,3,4,5]
+
+2. Homogenous Elements:
+
+Arrays usually store elements of the same data type.This means all elements in an array are of the same type, such as integers, characters, or objects.
+
+arr = [4,6,2,5,3,1]
+
+arr = [a,z,x,b,l,c]
+
+3. Contiguous Memory:
+
+Elements in an array are stored in adjacent memory locations, which allows for efficient memory access and manipulation.
+
+arr = [4   6   2   5   3   1]
+      100 101 102 103 104 105
+
+Array Operations:
+
+• Accessing Elements
+• Insertion
+• Deletion
+• Traversal
+• Searching
+• Update
+• Display
+
+

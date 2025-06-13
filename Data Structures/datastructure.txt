@@ -1,0 +1,52 @@
+What is Data Structure?
+
+--> A Data Structure is a particular way of organizing data in a computer's memory so that it can be used effectively by program code.
+
+Examples: libaries which contains lot of books in a particular sequential order like A-Z, year wise, etc
+
+--> Software = programs + data
+
+what is data?
+collection of raw facts(information).the data like be pdf,images,videos,etc.
+
+what is Programs?
+Programs = set of instructions to manipulate data
+
+Why Data Structures are important?
+
+Data structures can offer many benefits :
+l. Efficient Storage and Retrieval
+2. Algorithm Performance
+3. Reusability and Abstraction
+4.Data structures help in solving complex problems
+5. Understanding data structures allows programmers to design scalable software.
+
+How to Pick Data Structure?
+
+Choosing the proper data structure for each task is also important.
+Five factors to consider when picking a data structure:
+I. What kind of information will be stored?
+2. How will that information be used?
+3. Where should data persist, or be kept, after it is created?
+4. What is the best way to organize the data?
+5. What aspects of memory and storage reservation management should be
+considered?
+
+Purpose of Data Structure:
+1. Storing data
+2. Managing data
+3. Data exchange
+4. Ordering and sorting
+5. Indexing
+6. Searching
+
+Characteristics of Data Structure:
+l. Linear or Non-Linear
+2. Static and Dynamic
+3. Time Complexity
+4. Correctness
+5. Space Complexity
+
+
+
+
